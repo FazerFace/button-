@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+
+header{
+    padding: 250px 500px;
+    height: 100vh;
+    background: url('https://images.wallpaperscraft.ru/image/nochnoj_gorod_vid_sverkhu_noch_117531_3840x2400.jpg') no-repeat center top / cover;
+}
+
+.block{
+    position: relative;
+    border-radius: 100px;
+    width: 300px;
+    height: 150px;
+    background: url('http://oboi.cc/1366-768-100-uploads/sred/big/oboik.ru_201004301548018782.jpg') no-repeat center top / cover;
+}
+
+.block span{
+    top: 5%; left: 3%;
+    position: absolute;
+    width: 45%;
+    height: 90%;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.block_animation{
+    top: 20%;
+    animation: gold 1s forwards;
+}
+
+@keyframes gold{
+    0%{
+        left: 3%;
+        width: 45%;
+    }17%{
+        border-radius: 120px;
+        width: 65%;
+    }100%{
+        left: 52%;
+        width: 45%;
+    }
+}
